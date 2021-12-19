@@ -1,6 +1,6 @@
 import requests # this module helps us to fetch/get data and send http request
 import json # this module helps to parse data
-api_request = requests.get("https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start=1&limit=6&convert=USD&CMC_PRO_API_KEY=8092d883-9a5b-4ef6-886c-b9c10dba5bca")
+api_request = requests.get("https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start=1&limit=6&convert=USD&CMC_PRO_API_KEY=8092d883-9a5b-4ef6-886c-b9c10db")
 # api_request is a variable that stores api link ka data
 api = json.loads(api_request.content) # helps to deliver the content of api_request
 
